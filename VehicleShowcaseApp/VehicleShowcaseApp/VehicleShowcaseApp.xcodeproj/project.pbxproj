@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AD84E71D9A0CD300E497E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD84E61D9A0CD300E497E0 /* main.m */; };
+		00AD84EA1D9A0CD300E497E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD84E91D9A0CD300E497E0 /* AppDelegate.m */; };
+		00AD84ED1D9A0CD300E497E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD84EC1D9A0CD300E497E0 /* ViewController.m */; };
+		00AD84F01D9A0CD300E497E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84EE1D9A0CD300E497E0 /* Main.storyboard */; };
+		00AD84F21D9A0CD300E497E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84F11D9A0CD300E497E0 /* Assets.xcassets */; };
+		00AD84F51D9A0CD300E497E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84F31D9A0CD300E497E0 /* LaunchScreen.storyboard */; };
+		00AD85021D9A1E5600E497E0 /* Model3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84FC1D9A1E5600E497E0 /* Model3.jpg */; };
+		00AD85031D9A1E5600E497E0 /* ModelS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84FD1D9A1E5600E497E0 /* ModelS.jpg */; };
+		00AD85041D9A1E5600E497E0 /* ModelX.suv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84FE1D9A1E5600E497E0 /* ModelX.suv.jpg */; };
+		00AD85051D9A1E5600E497E0 /* RallyFighter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AD84FF1D9A1E5600E497E0 /* RallyFighter.jpg */; };
+		00AD85061D9A1E5600E497E0 /* Ram1500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AD85001D9A1E5600E497E0 /* Ram1500.jpg */; };
+		00AD85071D9A1E5600E497E0 /* RollsPhantom.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AD85011D9A1E5600E497E0 /* RollsPhantom.png */; };
+		00AD85091D9A48AF00E497E0 /* Cars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AD85081D9A48AF00E497E0 /* Cars.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00AD84E21D9A0CD300E497E0 /* VehicleShowcaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleShowcaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00AD84E61D9A0CD300E497E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00AD84E81D9A0CD300E497E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00AD84E91D9A0CD300E497E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00AD84EB1D9A0CD300E497E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00AD84EC1D9A0CD300E497E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00AD84EF1D9A0CD300E497E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00AD84F11D9A0CD300E497E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00AD84F41D9A0CD300E497E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00AD84F61D9A0CD300E497E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00AD84FC1D9A1E5600E497E0 /* Model3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Model3.jpg; sourceTree = "<group>"; };
+		00AD84FD1D9A1E5600E497E0 /* ModelS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ModelS.jpg; sourceTree = "<group>"; };
+		00AD84FE1D9A1E5600E497E0 /* ModelX.suv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ModelX.suv.jpg; sourceTree = "<group>"; };
+		00AD84FF1D9A1E5600E497E0 /* RallyFighter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RallyFighter.jpg; sourceTree = "<group>"; };
+		00AD85001D9A1E5600E497E0 /* Ram1500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ram1500.jpg; sourceTree = "<group>"; };
+		00AD85011D9A1E5600E497E0 /* RollsPhantom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RollsPhantom.png; sourceTree = "<group>"; };
+		00AD85081D9A48AF00E497E0 /* Cars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cars.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00AD84DF1D9A0CD300E497E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AD84D91D9A0CD300E497E0 = {
+			isa = PBXGroup;
+			children = (
+				00AD84E41D9A0CD300E497E0 /* VehicleShowcaseApp */,
+				00AD84E31D9A0CD300E497E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00AD84E31D9A0CD300E497E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00AD84E21D9A0CD300E497E0 /* VehicleShowcaseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00AD84E41D9A0CD300E497E0 /* VehicleShowcaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				00AD84E81D9A0CD300E497E0 /* AppDelegate.h */,
+				00AD84E91D9A0CD300E497E0 /* AppDelegate.m */,
+				00AD84EB1D9A0CD300E497E0 /* ViewController.h */,
+				00AD84EC1D9A0CD300E497E0 /* ViewController.m */,
+				00AD84EE1D9A0CD300E497E0 /* Main.storyboard */,
+				00AD84F11D9A0CD300E497E0 /* Assets.xcassets */,
+				00AD84F31D9A0CD300E497E0 /* LaunchScreen.storyboard */,
+				00AD84F61D9A0CD300E497E0 /* Info.plist */,
+				00AD84E51D9A0CD300E497E0 /* Supporting Files */,
+			);
+			path = VehicleShowcaseApp;
+			sourceTree = "<group>";
+		};
+		00AD84E51D9A0CD300E497E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00AD84E61D9A0CD300E497E0 /* main.m */,
+				00AD85081D9A48AF00E497E0 /* Cars.jpg */,
+				00AD84FC1D9A1E5600E497E0 /* Model3.jpg */,
+				00AD84FD1D9A1E5600E497E0 /* ModelS.jpg */,
+				00AD84FE1D9A1E5600E497E0 /* ModelX.suv.jpg */,
+				00AD84FF1D9A1E5600E497E0 /* RallyFighter.jpg */,
+				00AD85001D9A1E5600E497E0 /* Ram1500.jpg */,
+				00AD85011D9A1E5600E497E0 /* RollsPhantom.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00AD84E11D9A0CD300E497E0 /* VehicleShowcaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00AD84F91D9A0CD300E497E0 /* Build configuration list for PBXNativeTarget "VehicleShowcaseApp" */;
+			buildPhases = (
+				00AD84DE1D9A0CD300E497E0 /* Sources */,
+				00AD84DF1D9A0CD300E497E0 /* Frameworks */,
+				00AD84E01D9A0CD300E497E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VehicleShowcaseApp;
+			productName = VehicleShowcaseApp;
+			productReference = 00AD84E21D9A0CD300E497E0 /* VehicleShowcaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00AD84DA1D9A0CD300E497E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David P. Lopez";
+				TargetAttributes = {
+					00AD84E11D9A0CD300E497E0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KN2C3YX4GT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 00AD84DD1D9A0CD300E497E0 /* Build configuration list for PBXProject "VehicleShowcaseApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00AD84D91D9A0CD300E497E0;
+			productRefGroup = 00AD84E31D9A0CD300E497E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00AD84E11D9A0CD300E497E0 /* VehicleShowcaseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00AD84E01D9A0CD300E497E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AD85061D9A1E5600E497E0 /* Ram1500.jpg in Resources */,
+				00AD85071D9A1E5600E497E0 /* RollsPhantom.png in Resources */,
+				00AD85091D9A48AF00E497E0 /* Cars.jpg in Resources */,
+				00AD85051D9A1E5600E497E0 /* RallyFighter.jpg in Resources */,
+				00AD84F51D9A0CD300E497E0 /* LaunchScreen.storyboard in Resources */,
+				00AD85031D9A1E5600E497E0 /* ModelS.jpg in Resources */,
+				00AD85041D9A1E5600E497E0 /* ModelX.suv.jpg in Resources */,
+				00AD85021D9A1E5600E497E0 /* Model3.jpg in Resources */,
+				00AD84F21D9A0CD300E497E0 /* Assets.xcassets in Resources */,
+				00AD84F01D9A0CD300E497E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00AD84DE1D9A0CD300E497E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00AD84ED1D9A0CD300E497E0 /* ViewController.m in Sources */,
+				00AD84EA1D9A0CD300E497E0 /* AppDelegate.m in Sources */,
+				00AD84E71D9A0CD300E497E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00AD84EE1D9A0CD300E497E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00AD84EF1D9A0CD300E497E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00AD84F31D9A0CD300E497E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00AD84F41D9A0CD300E497E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00AD84F71D9A0CD300E497E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00AD84F81D9A0CD300E497E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00AD84FA1D9A0CD300E497E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KN2C3YX4GT;
+				INFOPLIST_FILE = VehicleShowcaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.COP2654.VehicleShowcaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00AD84FB1D9A0CD300E497E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KN2C3YX4GT;
+				INFOPLIST_FILE = VehicleShowcaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.COP2654.VehicleShowcaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00AD84DD1D9A0CD300E497E0 /* Build configuration list for PBXProject "VehicleShowcaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00AD84F71D9A0CD300E497E0 /* Debug */,
+				00AD84F81D9A0CD300E497E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00AD84F91D9A0CD300E497E0 /* Build configuration list for PBXNativeTarget "VehicleShowcaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00AD84FA1D9A0CD300E497E0 /* Debug */,
+				00AD84FB1D9A0CD300E497E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00AD84DA1D9A0CD300E497E0 /* Project object */;
+}

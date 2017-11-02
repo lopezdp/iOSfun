@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alabama</key>
+	<dict>
+		<key>Admission to Union</key>
+		<string>1819</string>
+		<key>Flag</key>
+		<string></string>
+		<key>Motto</key>
+		<string>We defend out rights</string>
+		<key>Capital</key>
+		<string>Montgomery</string>
+		<key>Population</key>
+		<integer>4858990</integer>
+	</dict>
+	<key>Alaska</key>
+	<dict>
+		<key>Admission to Union</key>
+		<string></string>
+		<key>Flag</key>
+		<string></string>
+		<key>Motto</key>
+		<string></string>
+		<key>Capital</key>
+		<string></string>
+		<key>Population</key>
+		<string></string>
+	</dict>
+	<key>Arizona</key>
+	<dict>
+		<key>Admission to Union</key>
+		<string></string>
+		<key>Flag</key>
+		<string></string>
+		<key>Motto</key>
+		<string></string>
+		<key>Capital</key>
+		<string></string>
+		<key>Population</key>
+		<string></string>
+	</dict>
+	<key>Arkansas</key>
+	<dict>
+		<key>Admission to Union</key>
+		<string></string>
+		<key>Flag</key>
+		<string></string>
+		<key>Motto</key>
+		<string></string>
+		<key>Capital</key>
+		<string></string>
+		<key>Population</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

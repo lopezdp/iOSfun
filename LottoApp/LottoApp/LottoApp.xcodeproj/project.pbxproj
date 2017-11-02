@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00081F0F1DAD4D4B00895724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00081F0E1DAD4D4B00895724 /* main.m */; };
+		00081F121DAD4D4B00895724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00081F111DAD4D4B00895724 /* AppDelegate.m */; };
+		00081F151DAD4D4B00895724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00081F141DAD4D4B00895724 /* ViewController.m */; };
+		00081F181DAD4D4B00895724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00081F161DAD4D4B00895724 /* Main.storyboard */; };
+		00081F1A1DAD4D4B00895724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00081F191DAD4D4B00895724 /* Assets.xcassets */; };
+		00081F1D1DAD4D4B00895724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00081F1B1DAD4D4B00895724 /* LaunchScreen.storyboard */; };
+		00081F261DAD4F3800895724 /* WeeklyGames.m in Sources */ = {isa = PBXBuildFile; fileRef = 00081F251DAD4F3800895724 /* WeeklyGames.m */; };
+		00081F291DAD4F5400895724 /* DailyGames.m in Sources */ = {isa = PBXBuildFile; fileRef = 00081F281DAD4F5400895724 /* DailyGames.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00081F0A1DAD4D4B00895724 /* LottoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00081F0E1DAD4D4B00895724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00081F101DAD4D4B00895724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00081F111DAD4D4B00895724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00081F131DAD4D4B00895724 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00081F141DAD4D4B00895724 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00081F171DAD4D4B00895724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00081F191DAD4D4B00895724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00081F1C1DAD4D4B00895724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00081F1E1DAD4D4B00895724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00081F241DAD4F3800895724 /* WeeklyGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyGames.h; sourceTree = "<group>"; };
+		00081F251DAD4F3800895724 /* WeeklyGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyGames.m; sourceTree = "<group>"; };
+		00081F271DAD4F5400895724 /* DailyGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyGames.h; sourceTree = "<group>"; };
+		00081F281DAD4F5400895724 /* DailyGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyGames.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00081F071DAD4D4B00895724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00081F011DAD4D4B00895724 = {
+			isa = PBXGroup;
+			children = (
+				00081F0C1DAD4D4B00895724 /* LottoApp */,
+				00081F0B1DAD4D4B00895724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00081F0B1DAD4D4B00895724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00081F0A1DAD4D4B00895724 /* LottoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00081F0C1DAD4D4B00895724 /* LottoApp */ = {
+			isa = PBXGroup;
+			children = (
+				00081F101DAD4D4B00895724 /* AppDelegate.h */,
+				00081F111DAD4D4B00895724 /* AppDelegate.m */,
+				00081F271DAD4F5400895724 /* DailyGames.h */,
+				00081F281DAD4F5400895724 /* DailyGames.m */,
+				00081F131DAD4D4B00895724 /* ViewController.h */,
+				00081F141DAD4D4B00895724 /* ViewController.m */,
+				00081F241DAD4F3800895724 /* WeeklyGames.h */,
+				00081F251DAD4F3800895724 /* WeeklyGames.m */,
+				00081F161DAD4D4B00895724 /* Main.storyboard */,
+				00081F191DAD4D4B00895724 /* Assets.xcassets */,
+				00081F1B1DAD4D4B00895724 /* LaunchScreen.storyboard */,
+				00081F1E1DAD4D4B00895724 /* Info.plist */,
+				00081F0D1DAD4D4B00895724 /* Supporting Files */,
+			);
+			path = LottoApp;
+			sourceTree = "<group>";
+		};
+		00081F0D1DAD4D4B00895724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00081F0E1DAD4D4B00895724 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00081F091DAD4D4B00895724 /* LottoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00081F211DAD4D4B00895724 /* Build configuration list for PBXNativeTarget "LottoApp" */;
+			buildPhases = (
+				00081F061DAD4D4B00895724 /* Sources */,
+				00081F071DAD4D4B00895724 /* Frameworks */,
+				00081F081DAD4D4B00895724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottoApp;
+			productName = LottoApp;
+			productReference = 00081F0A1DAD4D4B00895724 /* LottoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00081F021DAD4D4B00895724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David P. Lopez";
+				TargetAttributes = {
+					00081F091DAD4D4B00895724 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KN2C3YX4GT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 00081F051DAD4D4B00895724 /* Build configuration list for PBXProject "LottoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00081F011DAD4D4B00895724;
+			productRefGroup = 00081F0B1DAD4D4B00895724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00081F091DAD4D4B00895724 /* LottoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00081F081DAD4D4B00895724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00081F1D1DAD4D4B00895724 /* LaunchScreen.storyboard in Resources */,
+				00081F1A1DAD4D4B00895724 /* Assets.xcassets in Resources */,
+				00081F181DAD4D4B00895724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00081F061DAD4D4B00895724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00081F151DAD4D4B00895724 /* ViewController.m in Sources */,
+				00081F291DAD4F5400895724 /* DailyGames.m in Sources */,
+				00081F121DAD4D4B00895724 /* AppDelegate.m in Sources */,
+				00081F261DAD4F3800895724 /* WeeklyGames.m in Sources */,
+				00081F0F1DAD4D4B00895724 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00081F161DAD4D4B00895724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00081F171DAD4D4B00895724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00081F1B1DAD4D4B00895724 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00081F1C1DAD4D4B00895724 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00081F1F1DAD4D4B00895724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00081F201DAD4D4B00895724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00081F221DAD4D4B00895724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KN2C3YX4GT;
+				INFOPLIST_FILE = LottoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.COP2654.LottoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00081F231DAD4D4B00895724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KN2C3YX4GT;
+				INFOPLIST_FILE = LottoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.COP2654.LottoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00081F051DAD4D4B00895724 /* Build configuration list for PBXProject "LottoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00081F1F1DAD4D4B00895724 /* Debug */,
+				00081F201DAD4D4B00895724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00081F211DAD4D4B00895724 /* Build configuration list for PBXNativeTarget "LottoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00081F221DAD4D4B00895724 /* Debug */,
+				00081F231DAD4D4B00895724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00081F021DAD4D4B00895724 /* Project object */;
+}

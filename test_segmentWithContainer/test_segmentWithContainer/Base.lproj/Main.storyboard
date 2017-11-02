@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bol-q9-MpD">
+                                <frame key="frameInset" minX="16" height="514"/>
+                                <connections>
+                                    <segue destination="aoj-br-0rx" kind="embed" id="UGG-Bd-4CT"/>
+                                </connections>
+                            </containerView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d5Y-mA-zyN">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="ygX-2i-L5e"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Daily"/>
+                                    <segment title="Weekly"/>
+                                </segments>
+                                <connections>
+                                    <action selector="SegmentedControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="zvp-sI-hib"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQo-69-Vhm">
+                                <frame key="frameInset" minX="16" height="514"/>
+                                <connections>
+                                    <segue destination="9Et-bY-gDY" kind="embed" id="e94-VK-pWf"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d5Y-mA-zyN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="51" id="2eX-eM-gTJ"/>
+                            <constraint firstItem="Bol-q9-MpD" firstAttribute="bottom" secondItem="eQo-69-Vhm" secondAttribute="bottom" id="75W-cO-C91"/>
+                            <constraint firstItem="eQo-69-Vhm" firstAttribute="top" secondItem="d5Y-mA-zyN" secondAttribute="bottom" constant="34" id="7KU-81-tme"/>
+                            <constraint firstItem="Bol-q9-MpD" firstAttribute="top" secondItem="eQo-69-Vhm" secondAttribute="top" id="BVU-zh-iUA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eQo-69-Vhm" secondAttribute="bottom" constant="140" id="NXY-RU-AoM"/>
+                            <constraint firstItem="Bol-q9-MpD" firstAttribute="trailing" secondItem="eQo-69-Vhm" secondAttribute="trailing" id="Nw2-D0-fnc"/>
+                            <constraint firstItem="eQo-69-Vhm" firstAttribute="leading" secondItem="Bol-q9-MpD" secondAttribute="leading" id="Ufy-tk-QxR"/>
+                            <constraint firstItem="d5Y-mA-zyN" firstAttribute="centerX" secondItem="Bol-q9-MpD" secondAttribute="centerX" id="Z5p-HI-cUo"/>
+                            <constraint firstItem="Bol-q9-MpD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bHX-pT-a5d"/>
+                            <constraint firstItem="eQo-69-Vhm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="eDY-Uc-6ok"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="Y7z-kY-W1d"/>
+                    <connections>
+                        <outlet property="DailyView" destination="Bol-q9-MpD" id="GHK-03-qMi"/>
+                        <outlet property="SegmentedControl" destination="d5Y-mA-zyN" id="06B-vM-6bV"/>
+                        <outlet property="WeeklyView" destination="eQo-69-Vhm" id="7Y9-nd-I6j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-914" y="209"/>
+        </scene>
+        <!--Daily2-->
+        <scene sceneID="XOe-z8-SfV">
+            <objects>
+                <viewController title="Daily2" id="vnO-aj-iZ1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CwT-8M-LGI"/>
+                        <viewControllerLayoutGuide type="bottom" id="cWB-F4-W0O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uBd-Ta-iPg">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="514"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Daily 2" id="YY9-6t-Mvj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hiW-AS-VFj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="642" y="87"/>
+        </scene>
+        <!--weekly2-->
+        <scene sceneID="2L7-td-e4k">
+            <objects>
+                <viewController title="weekly2" id="XVr-FI-tLB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k3h-Q5-skZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dom-IE-Fab"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cHY-r6-hfs">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="514"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="weekly2" id="WLj-jF-UG4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBR-Dy-CAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="605"/>
+        </scene>
+        <!--weekly1-->
+        <scene sceneID="yDi-5E-iyY">
+            <objects>
+                <viewController title="weekly1" id="uNH-8x-eFd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QSk-Cy-dkw"/>
+                        <viewControllerLayoutGuide type="bottom" id="gjB-Gg-093"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8BU-YH-4nB">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="514"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="weekly1" id="Ofx-Ml-brc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6O-aT-Na7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="-50"/>
+        </scene>
+        <!--Weekly-->
+        <scene sceneID="Qbf-aG-i2s">
+            <objects>
+                <tabBarController title="Weekly" id="9Et-bY-gDY" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="lid-Xb-ff4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uNH-8x-eFd" kind="relationship" relationship="viewControllers" id="Io7-En-Zl5"/>
+                        <segue destination="XVr-FI-tLB" kind="relationship" relationship="viewControllers" id="8p3-X4-4IL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fw1-EQ-6Di" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="23" y="278"/>
+        </scene>
+        <!--Daily1-->
+        <scene sceneID="OF4-gV-TzR">
+            <objects>
+                <viewController title="Daily1" id="Dbq-Qg-Wbh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Ga-cJ-sar"/>
+                        <viewControllerLayoutGuide type="bottom" id="U6B-E9-SmR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6QM-IR-mav">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="514"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Daily 1" id="nby-1N-AMo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iQR-a5-5kV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="-570"/>
+        </scene>
+        <!--Daily-->
+        <scene sceneID="U7Y-i8-4RP">
+            <objects>
+                <tabBarController title="Daily" id="aoj-br-0rx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CxS-VC-hLC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Dbq-Qg-Wbh" kind="relationship" relationship="viewControllers" id="93A-ZP-tct"/>
+                        <segue destination="vnO-aj-iZ1" kind="relationship" relationship="viewControllers" id="wQL-cI-g1U"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UeI-2c-a54" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-313" y="-242"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cCH-Ku-xmq">
+            <objects>
+                <viewController id="dSx-yx-kKU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oxh-LX-oVK"/>
+                        <viewControllerLayoutGuide type="bottom" id="pRr-Mv-aOO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v9H-di-3aD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybd-gM-i35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="712"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cJF-jQ-d8v">
+            <objects>
+                <viewController id="Oe8-lj-pXM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MZs-KH-QlS"/>
+                        <viewControllerLayoutGuide type="bottom" id="oaP-hP-PDo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jeh-8g-Rdg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F6f-wG-xZn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="-467"/>
+        </scene>
+    </scenes>
+</document>

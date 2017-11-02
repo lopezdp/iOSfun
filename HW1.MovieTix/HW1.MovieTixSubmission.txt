@@ -1,0 +1,11 @@
+Professor, I had a hard time uploading my HW because it only allows for one file per submission. My problem is that created 3 files for my HW. I created an interface file, an implementation file, and the main() program file.
+
+Since I couldnt upload my files to toyocat.net, I uploaded it to github and I am now providing you with a link where you can download all three files yourself. 
+
+HW1. MovieTix App:
+
+https://github.com/lopezdp/iOS.MovieTix
+
+Thank you!!
+
+David Lopez

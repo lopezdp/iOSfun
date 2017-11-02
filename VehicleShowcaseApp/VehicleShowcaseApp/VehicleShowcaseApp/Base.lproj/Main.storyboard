@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0eg-a7-H3n">
+                                <frame key="frameInset" minX="16" minY="318" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OBE-x8-KDk">
+                                <frame key="frameInset" minX="132" minY="28" width="111" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Cars"/>
+                                    <segment title="Trucks"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="Vpx-0m-1HK"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yem-CF-zui">
+                                <frame key="frameInset" minX="134" minY="318" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eA8-3d-dhb">
+                                <frame key="frameInset" minX="252" minY="318" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nnd-US-5E3">
+                                <frame key="frameInset" minX="16" minY="82" width="343" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPG-ea-VA7">
+                                <frame key="frameInset" minX="62" minY="394" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87133916879999995" green="0.87133916879999995" blue="0.87133916879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tesla Model S"/>
+                                <connections>
+                                    <action selector="vehicleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="78f-78-Cin"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gc-Or-KNL">
+                                <frame key="frameInset" minX="62" minY="432" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87133916879999995" green="0.87133916879999995" blue="0.87133916879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tesla Model 3"/>
+                                <connections>
+                                    <action selector="vehicleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u70-4x-x4Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdN-C5-K5F">
+                                <frame key="frameInset" minX="62" minY="470" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87133916879999995" green="0.87133916879999995" blue="0.87133916879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Rolls Royce Phantom"/>
+                                <connections>
+                                    <action selector="vehicleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="epF-CK-eib"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEO-lq-cVv">
+                                <frame key="frameInset" minX="62" minY="394" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87133916879999995" green="0.87133916879999995" blue="0.87133916879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Tesla Model X"/>
+                                <connections>
+                                    <action selector="vehicleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8q5-5R-WeD"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-7A-ih9">
+                                <frame key="frameInset" minX="62" minY="470" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87133916879999995" green="0.87133916879999995" blue="0.87133916879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Rally Fighter"/>
+                                <connections>
+                                    <action selector="vehicleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5KL-YO-abi"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRB-qY-0eK">
+                                <frame key="frameInset" minX="62" minY="432" width="250" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.87133916879999995" green="0.87133916879999995" blue="0.87133916879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Dodge Ram 1500"/>
+                                <connections>
+                                    <action selector="vehicleBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YoW-32-DRT"/>
+                                </connections>
+                            </button>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GRM-uE-uYJ">
+                                <frame key="frameInset" minX="41" minY="569" width="293" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="backgroundTap:" destination="BYZ-38-t0r" eventType="touchDown" id="zpI-nb-Ahz"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="Model3" destination="1gc-Or-KNL" id="A9M-hw-5C3"/>
+                        <outlet property="imageDisplay" destination="Nnd-US-5E3" id="iiS-Ka-OMc"/>
+                        <outlet property="makeField" destination="0eg-a7-H3n" id="x7Y-FB-wvR"/>
+                        <outlet property="modelField" destination="Yem-CF-zui" id="aw5-Wz-9AJ"/>
+                        <outlet property="modelS" destination="xPG-ea-VA7" id="obH-df-nmD"/>
+                        <outlet property="modelX" destination="dEO-lq-cVv" id="rgs-v7-7j4"/>
+                        <outlet property="mpgField" destination="eA8-3d-dhb" id="2Hx-bV-YXC"/>
+                        <outlet property="msrp" destination="GRM-uE-uYJ" id="SHn-cg-8eX"/>
+                        <outlet property="phantomRolls" destination="cdN-C5-K5F" id="Xxo-Rm-YDI"/>
+                        <outlet property="rallyFighter" destination="0RB-7A-ih9" id="q8e-gk-LLE"/>
+                        <outlet property="ram1500" destination="PRB-qY-0eK" id="zr1-jM-Nbi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+</document>
